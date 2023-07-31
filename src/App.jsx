@@ -1,10 +1,16 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
 
   return (
     <>
-      <div className="text-white bg-black">Hello World!</div>
+      <nav className=""><NavBar/></nav>
+      <section className=""><Hero/></section>
+
+      <footer><Footer/></footer>
     </>
   );
 }
