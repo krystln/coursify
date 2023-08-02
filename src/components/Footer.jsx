@@ -4,6 +4,7 @@ const Links = ({ head, linkList }) => {
   const link = linkList.map((link) => {
     return (
       <a
+        key={link}
         href="/"
         onClick={(e) => e.preventDefault()}
         className="font-light hover:text-blue-900 hover:underline hover:underline-offset-2"
@@ -26,10 +27,24 @@ const Footer = () => {
     <div className="bg-gray-200">
       <div className="flex w-full items-start justify-between px-10">
         <div className="pt-16">
-          <div className="font-serif text-4xl font-black">Recruitify</div>
+          <div className="mb-2 font-serif text-4xl font-black underline">
+            Recruitify
+          </div>
           <div className="flex gap-2">
-            <img src="./public/vite.svg" alt="Linkedin logo" />
-            <img src="./public/vite.svg" alt="Twitter logo" />
+            <a href="/" onClick={(e) => e.preventDefault()}>
+              <img
+                src="./linkedin.svg"
+                alt="Linkedin logo"
+                className="w-8 hover:animate-upHighlight"
+              />
+            </a>
+            <a href="/" onClick={(e) => e.preventDefault()}>
+              <img
+                src="./twitter.svg"
+                alt="Twitter logo"
+                className="w-8 hover:animate-upHighlight"
+              />
+            </a>
           </div>
         </div>
         <div className="flex gap-10 py-16 pr-20">
