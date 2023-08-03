@@ -8,6 +8,7 @@ import PopUp from "./components/PopUp"
 import Pricing from "./components/Pricing"
 
 import { useState, useEffect } from "react"
+import Testimonials from "./components/Testimonials"
 
 function App() {
   const [popUp, setPopUp] = useState(true)
@@ -31,9 +32,15 @@ function App() {
         <NavBar />
       </nav>
 
-      <main className="z-0">
+      <main className="z-0 my-10">
         <Hero />
         <Information />
+        <Testimonials />
+        <hr
+          className="mx-[auto] my-10 w-4/5 border border-zinc-200"
+          id="Pricing"
+        />
+        <h3 className="text-center text-4xl font-bold">Pricing</h3>
         <Pricing />
       </main>
 

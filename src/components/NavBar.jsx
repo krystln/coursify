@@ -24,7 +24,7 @@ const NavBar = () => {
           Integrations
         </a>
         <a
-          href="/"
+          href="#Pricing"
           className="hover:delay-50 text-lg hover:text-[blue] hover:underline hover:underline-offset-8 hover:ease-in-out"
         >
           Pricing

@@ -2,7 +2,7 @@ import CountUp from "react-countup"
 import imageData from "../../assets/companyImagesData"
 
 const InfiniteScroll = ({ children }) => {
-  return <>{children.length}</>
+  return <>{children}</>
 }
 
 const Stats = () => {
