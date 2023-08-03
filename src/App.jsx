@@ -13,11 +13,11 @@ import Testimonials from "./components/Testimonials"
 function App() {
   const [popUp, setPopUp] = useState(true)
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setPopUp(true)
-  //   }, 10000)
-  // }, [])
+  useEffect(() => {
+    setTimeout(() => {
+      setPopUp(true)
+    }, 10000)
+  }, [])
 
   function togglePopUp() {
     setPopUp((prevValue) => !prevValue)
