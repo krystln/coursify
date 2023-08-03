@@ -2,7 +2,7 @@ import React from "react"
 
 const Information = () => {
   return (
-    <div className="grid grid-cols-2 grid-rows-2 gap-4 px-16">
+    <div className="my-10 grid grid-cols-2 grid-rows-2 gap-4 px-16">
       <div className="col-span-2 row-span-1 flex gap-10 rounded-lg bg-slate-200 px-10 py-12">
         <img
           src="/RecruiterJobPost.jpg"
