@@ -25,7 +25,7 @@ const Links = ({ head, linkList }) => {
 const Footer = () => {
   return (
     <div className="bg-gray-200">
-      <div className="flex w-full items-start justify-between px-10">
+      <div className="flex w-full items-start justify-between px-10 max-[800px]:flex-col">
         <div className="pt-16">
           <div className="mb-2 font-serif text-4xl font-black underline">
             Recruitify
@@ -47,7 +47,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="flex gap-10 py-16 pr-20">
+        <div className="flex gap-10 py-16 pr-20 max-[900px]:pr-5 max-[450px]:flex-col">
           <Links
             head="For Recruiters"
             linkList={["Overview", "Our Tooling", "Hire Talent", "Pricing"]}

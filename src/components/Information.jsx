@@ -2,23 +2,23 @@ import React from "react"
 
 const Information = () => {
   return (
-    <div className="my-10 grid grid-cols-2 grid-rows-2 gap-4 px-16">
-      <div className="col-span-2 row-span-1 flex gap-10 rounded-lg bg-slate-200 px-10 py-12">
+    <div className="my-10 grid grid-cols-2 grid-rows-2 gap-4 px-16 max-[1420px]:flex  max-[1420px]:flex-col max-[550px]:px-5 ">
+      <div className="col-span-2 row-span-1 flex gap-10 rounded-lg bg-slate-200 px-10 py-12 max-[1315px]:flex-col max-[1315px]:items-center max-[370px]:px-2">
         <img
           src="/RecruiterJobPost.jpg"
           alt=""
-          className="h-[27rem] rounded-lg"
+          className="max-h-[27rem] rounded-lg"
         />
         <div className="flex flex-col gap-5">
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-3xl font-bold max-[500px]:text-2xl">
             Reach thousands of highly qualified candidates
           </h3>
           <div>
-            <h4 className="text-2xl font-bold">
+            <h4 className="text-2xl font-bold max-[500px]:text-xl">
               <img
                 src="/jobSuitcase.svg"
                 alt=""
-                className="mx-3 inline h-10 w-10"
+                className="mx-3 inline h-10 w-10 max-[500px]:h-8 max-[500px]:w-8"
               />
               Job Ready Candidates
             </h4>
@@ -27,29 +27,39 @@ const Information = () => {
             </p>
           </div>
           <div>
-            <h4 className="text-2xl font-bold">
+            <h4 className="text-2xl font-bold max-[500px]:text-xl">
               <img
                 src="/globe.svg"
                 alt=""
-                className="mx-3 inline h-10 w-10 rotate-45"
+                className="mx-3 inline h-10 w-10 rotate-45  max-[500px]:h-8 max-[500px]:w-8"
               />
               World-Wide Focus
             </h4>
             <p className="px-16 text-xl">Candidates from accross the borders</p>
           </div>
           <div>
-            <h4 className="text-2xl font-bold">
-              <img src="/people.svg" alt="" className="mx-3 inline h-10 w-10" />
+            <h4 className="text-2xl font-bold max-[500px]:text-xl">
+              <img
+                src="/people.svg"
+                alt=""
+                className="mx-3 inline h-10 w-10  max-[500px]:h-8 max-[500px]:w-8"
+              />
               Fast Responses
             </h4>
             <p className="px-16 text-xl">Upto 90% faster candidate responses</p>
           </div>
         </div>
       </div>
-      <div className="row-start-2 flex rounded-lg bg-slate-200 p-5">
-        <img src="/AssessmentsProfile.png" alt="" className="h-[30rem]" />
-        <div className="pt-10">
-          <h3 className="text-3xl font-bold">Already Assessed Profiled</h3>
+      <div className="row-start-2 flex rounded-lg bg-slate-200 p-5 max-[930px]:flex-col max-[930px]:items-center">
+        <img
+          src="/AssessmentsProfile.png"
+          alt=""
+          className="min-[850px]:h-[30rem]"
+        />
+        <div className="pt-10 max-[1420px]:px-20 max-[650px]:px-5 max-[500px]:pt-2">
+          <h3 className="text-3xl font-bold max-[500px]:text-xl">
+            Already Assessed Profiled
+          </h3>
           <p className="mb-5">
             Eliminate the necessity of personally conducting candidate
             assessments. Instead of investing your time and effort in evaluating
@@ -66,7 +76,7 @@ const Information = () => {
       </div>
       <div className="row-start-2 rounded-lg bg-slate-200 p-5">
         <img src="/RecruiterTrack.jpg" alt="" className="" />
-        <h3 className="mt-3 text-3xl font-bold">
+        <h3 className="mt-3 text-3xl font-bold max-[500px]:text-xl">
           Manage candidates with our ATS
         </h3>
         <p>

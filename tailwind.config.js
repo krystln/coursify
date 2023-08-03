@@ -13,11 +13,17 @@ export default {
         },
         scaleUp: {
           '100%': { transform: 'scale(1.1)' },
+        },
+        scroll: {
+          from: { transform: 'translateX(100%)' },
+          to: { transform: 'translateX(-500%)' },
         }
       },
       animation: {
         'upHighlight': 'bopUp 0.1s linear forwards',
         'scaleUp': 'scaleUp 0.1s linear forwards',
+        'infScroll': 'scroll 100s linear infinite',
+        'negInfScroll': 'scroll reverse 110s linear infinite',
       }
     },
     fontFamily: {

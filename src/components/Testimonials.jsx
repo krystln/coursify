@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <>
       <h2 className="text-center text-3xl font-bold">Our Customer Reports</h2>
-      <div className="mt-10 grid grid-cols-2 grid-rows-2 gap-10 px-20">
+      <div className="mt-10 grid grid-cols-2 grid-rows-2 gap-10 px-20 max-[630px]:flex max-[630px]:flex-col max-[630px]:gap-4 max-[630px]:px-4 ">
         <div className="border border-zinc-500 p-5  ">
           <img src="/quoteIcon.svg" alt="" className="h-20 w-20" />
           "Our recruitment process has been completely revolutionized since

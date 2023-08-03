@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <div className="mx-4 flex h-[5rem] items-center justify-between px-4 shadow-lg">
       <div className="font-serif text-4xl font-black">Recruitify</div>
-      <div className="flex items-center gap-4 text-lg">
+      <div className="flex items-center gap-4 text-lg max-[800px]:hidden">
         <a
           href="/"
           className="hover:delay-50 text-lg hover:text-blue-900 hover:underline hover:underline-offset-8 hover:ease-in-out"

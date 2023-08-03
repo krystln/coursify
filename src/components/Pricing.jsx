@@ -2,8 +2,8 @@ import React from "react"
 
 const Pricing = () => {
   return (
-    <div className="my-4   flex items-baseline justify-center gap-10">
-      <div className="h-[24rem] w-1/5 rounded-sm border border-zinc-600 bg-white px-5 py-10 hover:animate-scaleUp">
+    <div className="my-4 flex items-baseline justify-center gap-10 max-[1080px]:flex-col max-[1080px]:items-center">
+      <div className="h-[24rem] w-1/5 rounded-sm border border-zinc-600 bg-white px-5 py-10 hover:animate-scaleUp max-[1315px]:w-1/4 max-[1080px]:w-1/3 max-[820px]:w-1/2 max-[600px]:w-4/5">
         <h3 className="font text-3xl">Access</h3>
         <h1 className="mb-4 text-5xl font-bold">Free</h1>
         <ul className="mb-4 flex list-disc flex-col gap-2 px-10 text-lg">
@@ -16,7 +16,7 @@ const Pricing = () => {
           Sign Up Now
         </button>
       </div>
-      <div className="h-[24rem] w-1/5 rounded-sm border-2 border-yellow-500 bg-white px-5 py-10 pt-2 hover:animate-scaleUp">
+      <div className="h-[24rem] w-1/5 rounded-sm border-2 border-yellow-500 bg-white px-5 py-10 pt-2 hover:animate-scaleUp max-[1315px]:w-1/4 max-[1080px]:w-1/3 max-[820px]:w-1/2 max-[600px]:w-4/5">
         <div className="relative top-[-30px] w-fit rounded-2xl bg-yellow-500 px-4 py-2">
           Best Value
         </div>
@@ -35,7 +35,7 @@ const Pricing = () => {
           Sign Up Now
         </button>
       </div>
-      <div className="h-[24rem] w-1/5 rounded-sm border border-zinc-600 bg-white px-5 py-10 hover:animate-scaleUp">
+      <div className="h-[24rem] w-1/5 rounded-sm border border-zinc-600 bg-white px-5 py-10 hover:animate-scaleUp max-[1315px]:w-1/4 max-[1080px]:w-1/3 max-[820px]:w-1/2 max-[600px]:w-4/5 ">
         <h3 className="font text-3xl">Unlimited Access</h3>
         <h1 className="mb-4 text-5xl font-bold">Custom</h1>
         <ul className="mb-4 flex list-disc flex-col gap-2 px-10 text-lg ">
