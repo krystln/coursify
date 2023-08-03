@@ -7,7 +7,7 @@ const Information = () => {
         <img
           src="/RecruiterJobPost.jpg"
           alt=""
-          className="h-[25rem] rounded-lg"
+          className="h-[27rem] rounded-lg"
         />
         <div className="flex flex-col gap-5">
           <h3 className="text-3xl font-bold">
