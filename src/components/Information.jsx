@@ -5,7 +5,7 @@ const Information = () => {
     <div className="my-10 grid grid-cols-2 grid-rows-2 gap-4 px-16 max-[1420px]:flex  max-[1420px]:flex-col max-[550px]:px-5 ">
       <div className="col-span-2 row-span-1 flex gap-10 rounded-lg bg-slate-200 px-10 py-12 max-[1315px]:flex-col max-[1315px]:items-center max-[370px]:px-2">
         <img
-          src="/RecruiterJobPost.jpg"
+          src="./src/assets/RecruiterJobPost.jpg"
           alt=""
           className="max-h-[27rem] rounded-lg"
         />
@@ -16,7 +16,7 @@ const Information = () => {
           <div>
             <h4 className="text-2xl font-bold max-[500px]:text-xl">
               <img
-                src="/jobSuitcase.svg"
+                src="./src/assets/jobSuitcase.svg"
                 alt=""
                 className="mx-3 inline h-10 w-10 max-[500px]:h-8 max-[500px]:w-8"
               />
@@ -29,7 +29,7 @@ const Information = () => {
           <div>
             <h4 className="text-2xl font-bold max-[500px]:text-xl">
               <img
-                src="/globe.svg"
+                src="./src/assets/globe.svg"
                 alt=""
                 className="mx-3 inline h-10 w-10 rotate-45  max-[500px]:h-8 max-[500px]:w-8"
               />
@@ -40,7 +40,7 @@ const Information = () => {
           <div>
             <h4 className="text-2xl font-bold max-[500px]:text-xl">
               <img
-                src="/people.svg"
+                src="./src/assets/people.svg"
                 alt=""
                 className="mx-3 inline h-10 w-10  max-[500px]:h-8 max-[500px]:w-8"
               />
@@ -52,7 +52,7 @@ const Information = () => {
       </div>
       <div className="row-start-2 flex rounded-lg bg-slate-200 p-5 max-[930px]:flex-col max-[930px]:items-center">
         <img
-          src="/AssessmentsProfile.png"
+          src="./src/assets/AssessmentsProfile.png"
           alt=""
           className="min-[850px]:h-[30rem]"
         />
@@ -75,7 +75,7 @@ const Information = () => {
         </div>
       </div>
       <div className="row-start-2 rounded-lg bg-slate-200 p-5">
-        <img src="/RecruiterTrack.jpg" alt="" className="" />
+        <img src="./src/assets/RecruiterTrack.jpg" alt="" className="" />
         <h3 className="mt-3 text-3xl font-bold max-[500px]:text-xl">
           Manage candidates with our ATS
         </h3>

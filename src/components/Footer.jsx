@@ -33,14 +33,14 @@ const Footer = () => {
           <div className="flex gap-2">
             <a href="/" onClick={(e) => e.preventDefault()}>
               <img
-                src="./linkedin.svg"
+                src="./src/assets/linkedin.svg"
                 alt="Linkedin logo"
                 className="w-8 hover:animate-upHighlight"
               />
             </a>
             <a href="/" onClick={(e) => e.preventDefault()}>
               <img
-                src="./twitter.svg"
+                src="./src/assets/twitter.svg"
                 alt="Twitter logo"
                 className="w-8 hover:animate-upHighlight"
               />

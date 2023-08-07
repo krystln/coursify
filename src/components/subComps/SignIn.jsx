@@ -31,12 +31,20 @@ const SignIn = () => {
         <hr className="mx-[auto] my-5 w-4/5 border border-zinc-200" />
         <button className="mb-2 w-full rounded-sm border border-zinc-300 px-2 py-1 text-xl hover:bg-zinc-200 active:bg-white">
           Sign In With{" "}
-          <img src="/google.svg" alt="" className="mb-1 inline h-5 w-5" />
+          <img
+            src="./src/assets/google.svg"
+            alt=""
+            className="mb-1 inline h-5 w-5"
+          />
           Google
         </button>
         <button className="w-full rounded-sm border border-zinc-300 px-2 py-1 text-xl hover:bg-zinc-200 active:bg-white">
           Sign In With{" "}
-          <img src="/github.svg" alt="" className="mb-1 inline h-5 w-5 " />
+          <img
+            src="./src/assets/github.svg"
+            alt=""
+            className="mb-1 inline h-5 w-5 "
+          />
           Github
         </button>
       </div>

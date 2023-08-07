@@ -9,7 +9,7 @@ const PopUp = ({ children, isShown, togglePopUp }) => {
           className="absolute right-0 h-0 px-5 py-5 text-zinc-400 active:text-black"
         >
           <img
-            src="/crossIcon.svg"
+            src="./src/assets/crossIcon.svg"
             alt="Close"
             className="h-5 w-5 hover:scale-125 active:scale-100"
           />

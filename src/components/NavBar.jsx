@@ -64,7 +64,7 @@ const NavBar = () => {
           className="rounded-md active:bg-zinc-200"
           onClick={toggleIsOpen}
         >
-          <img src="/menuIcon.svg" alt="" className="h-10 w-10" />
+          <img src="./src/assets/menuIcon.svg" alt="" className="h-10 w-10" />
         </button>
         <div
           ref={dropdown}
